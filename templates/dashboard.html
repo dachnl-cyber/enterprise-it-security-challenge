@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <h1>Dashboard</h1>
+    <p>User: {{ user.full_name if user else "Unknown" }}</p>
+    <p>Role: {{ user.role if user else "Unknown" }}</p>
+    <p>Tenant ID: {{ user.tenant_id if user else "Unknown" }}</p>
+  </body>
+</html>
